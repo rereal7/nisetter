@@ -12,10 +12,10 @@ class CommentsTableSeeder extends Seeder
      */
     public function run()
     {
-        for ($i = 1; $i <= 10; $i++) {
+        for ($i = 0; $i < 10; $i++) {
             Comment::create([
                 'user_id' => 5,
-                'tweet_id' => $i,
+                'tweet_id' => $i * 10 + 5,
                 'text' => 'テストコメント' . $i,
                 'created_at' => now(),
                 'updated_at' => now()
