@@ -12,10 +12,10 @@ class FavoritesTableSeeder extends Seeder
      */
     public function run()
     {
-        for ($i = 2; $i <= 10; $i++) {
+        for ($i = 0; $i < 10; $i++) {
             Favorite::create([
                 'user_id' => 5,
-                'tweet_id' => $i
+                'tweet_id' => $i * 10 + 5
             ]);
         }
     }
