@@ -1,0 +1,5 @@
+APP_KEY:       base64:isT6HOGeb4iifeHQpQY79HvbXQd7m52GZtCl7NRLWEo=
+DB_CONNECTION: mysql
+DB_HOST:       us-cdbr-east-04.cleardb.com
+DB_PASSWORD:   b5a5a9de
+DB_PORT:       3306
