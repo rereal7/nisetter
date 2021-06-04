@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Twitter_Clone'),
+    'name' => env('APP_NAME', 'Nisetter'),
 
     /*
     |--------------------------------------------------------------------------
